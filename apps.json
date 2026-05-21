@@ -5,7 +5,7 @@
   },
   {
     "url": "https://github.com/frappe/payments",
-    "branch": "version-16"
+    "branch": "develop"
   },
   {
     "url": "https://github.com/frappe/hrms",
@@ -18,5 +18,13 @@
   {
     "url": "https://github.com/alyf-de/erpnext_pdf-on-submit",
     "branch": "main"
+  },
+  {
+    "url": "https://github.com/frappe/webshop",
+    "branch": "version-16"
+  },
+  {
+    "url": "https://github.com/frappe/eps",
+    "branch": "develop"
   }
 ]

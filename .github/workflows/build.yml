@@ -3,10 +3,12 @@ name: Build V16 ERP Image
 on:
   push:
     branches: [ "main" ]
-  workflow_dispatch: # Allows you to trigger the build manually
+  workflow_dispatch: 
 
 env:
   REGISTRY: ghcr.io
+  # Hardcoded lowercase repository name. Bulletproof.
+  IMAGE_NAME: artolika/erpv16
 
 jobs:
   build-and-push:
